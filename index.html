@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Css</title>
+    <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections Styling */
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#home {
+    background-color: #e2e2e2;
+    margin-bottom: 20px;
+}
+
+#about {
+    background-color: #d1d1d1;
+    margin-bottom: 20px;
+}
+
+#gallery {
+    background-color: #e2e2e2;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Gallery Styles */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #fff;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+</style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasa Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Pasa Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About Me">About</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Home">
+        <h2>Welcome to Pasa Portfolio</h2>
+        <p>This is the home section of my pasa portfolio website.</p>
+    </section>
+
+    <section id="About Me">
+        <h2>About Me</h2>
+        <p>Hello! My Name is Lawrence Pasa I am a Passionate Developer with Skills in HTML, CSS, and JavaScript. I love Creating Beautiful and Functional Websites.</p>
+    </section>
+
+    <section id="Gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="Web Developer.png" alt="Photo 1" />
+                <p>Name: Photo 1</p>
+                <p>Dream Job: Web Developer</p>
+            </div>
+            <div class="gallery-item">
+                <img src="UI&UX Designer.png" alt="Photo 2" />
+                <p>Name: Photo 2</p>
+                <p>Dream Job: UI&UX Designer</p>
+            </div>
+            <div class="gallery-item">
+                <img src="Software Developer.png" alt="Photo 2" />
+                <p>Name: Photo 2</p>
+                <p>Dream Job: Software Developer</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lawrence Pasa. All rights reserved.</p>
+        <p>GitHub Repository: <a href="https://github.com/lawrencepasa/yourrepository" target="_blank">https://github.com/lawrencepasa/yourrepository</a></p>
+    </footer>
+</body>
+</html>
+
+
